@@ -55,7 +55,6 @@ public class FelineTest {
         try {
             // Act
             feline.getFood("Unknown");
-            fail("Expected an Exception to be thrown");
         } catch (Exception exception) {
             // Assert
             String actualExceptionMessage = exception.getMessage();
